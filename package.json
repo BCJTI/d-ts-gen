@@ -1,0 +1,15 @@
+{
+  "name": "d-ts-gen",
+  "version": "0.1.0",
+  "description": "Simple d.ts generator for js node packages.",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "d.ts",
+    "typescript"
+  ],
+  "author": "Bigous@users.noreply.github.com",
+  "license": "MIT"
+}
