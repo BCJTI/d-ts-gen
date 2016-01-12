@@ -1,15 +1,26 @@
 {
-  "name": "d-ts-gen",
-  "version": "0.1.0",
-  "description": "Simple d.ts generator for js node packages.",
-  "main": "generate.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "d.ts",
-    "typescript"
-  ],
-  "author": "Bigous@users.noreply.github.com",
-  "license": "MIT"
+	"name": "d-ts-gen",
+	"version": "0.1.0",
+	"description": "Simple d.ts generator for js node packages.",
+	"scripts": {
+		"prepublish": "tsc",
+		"tsc": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"d.ts",
+		"typescript"
+	],
+	"bin": {
+		"d.ts.gen": "./generate.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BCJTI/d-ts-gen"
+	},
+	"author": "Bigous@users.noreply.github.com",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^1.7.5"
+	}
 }
