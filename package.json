@@ -22,9 +22,18 @@
     "url": "https://github.com/BCJTI/d-ts-gen/issues"
   },
   "engines": {
-    "node": ">= 4.0"
+    "node": ">= 0.9"
   },
-  "author": "Bigous@users.noreply.github.com",
+  "files": [
+    "bin",
+    "DeclarationType.js"
+  ],
+	"preferGlobal": true,
+	"author": {
+    "email": "Bigous@users.noreply.github.com",
+    "name": "Bigous",
+    "url": "http://bcj.com.br/"
+  },
   "license": "MIT",
   "devDependencies": {
     "typescript": "^1.7.5"
