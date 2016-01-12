@@ -1,6 +1,6 @@
 {
   "name": "d-ts-gen",
-  "version": "0.1.13",
+  "version": "0.2.0",
   "description": "Simple d.ts generator for js node packages.",
   "scripts": {
     "prepublish": "tsc",
