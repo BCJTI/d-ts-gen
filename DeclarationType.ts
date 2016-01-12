@@ -30,7 +30,7 @@ export class DeclarationType {
 		let parameters = paramsRegExp.exec(func.prototype.constructor + '')[1].split(',');
 		let decl = this.getIdentation() + (this.identation < 2 ? 'function ' : '') + name + '(';
 		parameters.forEach(function(param, index) {
-			decl = decl + ((param && typeof param === 'string' && param.length > 0) ? param : 'param_' + index) + ' : any, ';
+			decl = decl + ((param && typeof param === 'string' && param.length > 0) ? param : 'param_' + index + '?') + ' : any, ';
 		});
 		decl = decl.substring(0, decl.length - 2);
 		decl = decl + ') : any;';
