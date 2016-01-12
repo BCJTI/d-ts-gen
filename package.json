@@ -1,6 +1,6 @@
 {
   "name": "d-ts-gen",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Simple d.ts generator for js node packages.",
   "scripts": {
     "prepublish": "tsc",
@@ -28,8 +28,8 @@
     "bin",
     "DeclarationType.js"
   ],
-	"preferGlobal": true,
-	"author": {
+  "preferGlobal": true,
+  "author": {
     "email": "Bigous@users.noreply.github.com",
     "name": "Bigous",
     "url": "http://bcj.com.br/"
