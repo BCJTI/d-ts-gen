@@ -40,7 +40,7 @@ export class DeclarationType {
 	processObject(obj : Object, name : string, ignoreClassDefinition: boolean) : void {
 		let properties = Object.getOwnPropertyNames(obj);
 		let descriptor;
-		if (ignoreClassDefinition) {
+		if (!ignoreClassDefinition) {
 			console.log(this.getIdentation() + 'class ' + name + ' {');
 			this.identation++;
 		}
@@ -48,7 +48,7 @@ export class DeclarationType {
 			descriptor = Object.getOwnPropertyDescriptor(obj, property);
 			this.discoverElement(descriptor.value, property, false);
 		}, this);
-		if (ignoreClassDefinition) {
+		if (!ignoreClassDefinition) {
 			this.identation--;
 			console.log(this.getIdentation() + '}');
 		}
