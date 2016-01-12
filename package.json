@@ -25,7 +25,7 @@
     "node": ">= 0.9"
   },
   "files": [
-    "bin",
+    "generate.js",
     "DeclarationType.js"
   ],
   "preferGlobal": true,
