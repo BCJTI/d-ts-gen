@@ -1,3 +1,4 @@
+/// <reference path='./typings/tsd.d.ts' />
 export class DeclarationType {
 	private identation: number = 0;
 	constructor(private moduleName: string) {
