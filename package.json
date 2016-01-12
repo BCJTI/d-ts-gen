@@ -12,7 +12,7 @@
     "typescript"
   ],
   "bin": {
-    "d-ts-gen": "./bin/generate.js"
+    "d-ts-gen": "./generate.js"
   },
   "repository": {
     "type": "git",
