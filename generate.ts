@@ -1,3 +1,4 @@
+/// <reference path="./typings/tsd.d.ts" />
 import {DeclarationType} from './DeclarationType';
 
 var moduleName = process.argv[2];
